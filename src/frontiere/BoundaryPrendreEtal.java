@@ -20,7 +20,7 @@ public class BoundaryPrendreEtal {
 			System.out.println("Bonjour "+nomVendeur+" je vais regarder si je peux vous trouver un etal.\n");
 			Boolean etalDisponible= controlPrendreEtal.resteEtals();
 			if(!etalDisponible) {
-				System.out.println("Désolée "+nomVendeur+" jen'ai plus d'etal qui ne soit pas deja occupé\n");
+				System.out.println("Désolée "+nomVendeur+" je n'ai plus d'etal qui ne soit pas deja occupé\n");
 			}else {
 				installerVendeur(nomVendeur);
 			}
